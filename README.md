@@ -44,9 +44,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## See Also
 
 All apps based on CoFFee:
-* *Iskaffe*: https://github.com/alexschimel/Iskaffe
 * *Grounds*: https://github.com/alexschimel/Grounds
 * *Espresso* (private)
+* *Iskaffe*: https://github.com/alexschimel/Iskaffe
 
 ## References 
 
