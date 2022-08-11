@@ -1,10 +1,51 @@
-# Grounds
-Elevation Change Analysis
+# *Grounds*
+
+Elevation Change Analysis.
+
+## Description
+
+*Grounds* is a free and open-source app to do elevation change analysis.
+
+## Getting Started
+
+### Dependencies
+
+* For the source code: 
+* For the compiled executable: 
+
+### Installing
+
+* For the source code:
+* For the compiled executable:
+
+### Executing program
+
+* For the source code:
+* For the compiled executable:
+
+## Help
+
+There is no documentation yet. Contact the authors.
+
+## Authors
+
+* Alexandre Schimel ([The Geological Survey of Norway](https://www.ngu.no), alexandre.schimel@ngu.no)
+* Daniel Ierodiaconou (Deakin University)
+* Joshu Mountjoy (NIWA)
+
+## Version History
+
+[See the releases page](https://github.com/alexschimel/Grounds/releases)
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## See Also
 
-Other apps based on CoFFee:
+All apps based on CoFFee:
 * *Iskaffe*: https://github.com/alexschimel/Iskaffe
+* *Grounds*: https://github.com/alexschimel/Grounds
 * *Espresso* (private)
 
 ## References 
