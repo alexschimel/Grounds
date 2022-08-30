@@ -41,7 +41,7 @@ With *Grounds*, you can visualize the regions of your datasets that experienced 
 * For the compiled executable: Execute the installed program.
   * Note: The first time you run *Grounds* after installation, it might take a while for the app to appear. Be patient. It will be faster the next times.
 
-Note: At start-up, *Grounds* creates a `Grounds` user folder in the folder that contains your MATLAB user folder (usually, C:\Users\USERNAME\Documents\Grounds). This folder contains a configuration file for the app, and is the default folder for any exports from the app. It can be deleted safely (although this resets the app configuration).
+Note: At start-up, *Grounds* creates a `Grounds` user folder (normally, C:\Users\USERNAME\Documents\Grounds). This folder contains a configuration file for the app, and is the default folder for any exports from the app. This folder or any of its contents can be deleted safely (although if you delete the configuration file, this will reset the app configuration).
 
 ## Help
 
@@ -49,7 +49,7 @@ There is a short documentation available by clicking on the `?` (question mark) 
 
 There is an example dataset (2x DEMs, 2x spatially-variable uncertainty grids, 1x example polygon) [available for download from the releases page](https://github.com/alexschimel/Grounds/releases).
 
-If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your settings that you are set to receive 'Watching' notifications.
+If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your GitHub settings that you are set to receive 'Watching' notifications.
 
 For more information, contact the authors.
 
