@@ -14,11 +14,11 @@
     <param.company>NGU</param.company>
     <param.summary />
     <param.description />
-    <param.screenshot>${PROJECT_ROOT}\Grounds_resources\logo\icon_400.png</param.screenshot>
+    <param.screenshot>${PROJECT_ROOT}\Grounds_resources\icon_400.png</param.screenshot>
     <param.guid />
     <param.installpath.string>\Grounds\v2.0.0</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
-    <param.logo>${PROJECT_ROOT}\Grounds_resources\logo\splash_half.png</param.logo>
+    <param.logo>${PROJECT_ROOT}\Grounds_resources\splash_half.png</param.logo>
     <param.install.notes />
     <param.target.install.notes />
     <param.intermediate>${PROJECT_ROOT}\bin\for_testing</param.intermediate>
@@ -98,14 +98,14 @@
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\zzz_old\to_sort\third_party_code\ascgrid\ascread.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\zzz_old\to_sort\third_party_code\ascgrid\ascwrite.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\zzz_old\to_sort\third_party_code\ascgrid\pad.m</file>
+      <file>${PROJECT_ROOT}\Grounds_resources\app_icons\menu_help.png</file>
+      <file>${PROJECT_ROOT}\Grounds_resources\app_icons\menu_lockaxis.png</file>
+      <file>${PROJECT_ROOT}\Grounds_resources\app_icons\menu_pan.png</file>
+      <file>${PROJECT_ROOT}\Grounds_resources\app_icons\menu_tooltip.png</file>
+      <file>${PROJECT_ROOT}\Grounds_resources\app_icons\menu_zoomin.png</file>
+      <file>${PROJECT_ROOT}\Grounds_resources\app_icons\menu_zoomout.png</file>
       <file>${PROJECT_ROOT}\Grounds_resources\help.txt</file>
       <file>${PROJECT_ROOT}\Grounds_resources\icon_48.png</file>
-      <file>${PROJECT_ROOT}\Grounds_resources\icons\menu_help.png</file>
-      <file>${PROJECT_ROOT}\Grounds_resources\icons\menu_lockaxis.png</file>
-      <file>${PROJECT_ROOT}\Grounds_resources\icons\menu_pan.png</file>
-      <file>${PROJECT_ROOT}\Grounds_resources\icons\menu_tooltip.png</file>
-      <file>${PROJECT_ROOT}\Grounds_resources\icons\menu_zoomin.png</file>
-      <file>${PROJECT_ROOT}\Grounds_resources\icons\menu_zoomout.png</file>
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\bin\for_testing" name="Grounds.exe" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Grounds\bin\for_testing\Grounds.exe</file>
