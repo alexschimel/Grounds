@@ -2,11 +2,15 @@
 
 Elevation Change Analysis.
 
+[![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/download.png?raw=true)](https://github.com/alexschimel/Grounds/releases/download/v2.0.0/grounds_v200_setup.exe)
+
 ## Description
 
 *Grounds* is a free and open-source app to visualize and analyze change between Digital Elevation Models (DEM), that is, bathymetric/topographic grids. *Grounds* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
 
 With *Grounds*, you can visualize the regions of your datasets that experienced vertical change (erosion, deposition, etc.), and calculate the surface and volumes of those changes, considering fixed or variable Limits of Detection (LoDs). *Grounds* also provides uncertainty estimates for these measures. This app implements the methods described in [Schimel et al. (2015)](https://doi.org/10.1016/j.csr.2015.10.019).
+
+![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/screenshots/Grounds_example.png?raw=true)
 
 ## Getting Started
 
