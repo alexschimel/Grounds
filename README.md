@@ -45,7 +45,7 @@ Note: At start-up, *Grounds* creates a `Grounds` user folder (normally, C:\Users
 
 ## Help
 
-There is a short documentation available by clicking on the `?` (question mark) button in the menu.
+There is a short documentation available by clicking on the `?` (question mark) button in the menu. We also recommend you read the article [Schimel et al. (2015)](https://doi.org/10.1016/j.csr.2015.10.019), which describes the methods (workflow and processing applied).
 
 There is an example dataset (2x DEMs, 2x spatially-variable uncertainty grids, 1x example polygon) [available for download from the releases page](https://github.com/alexschimel/Grounds/releases).
 
