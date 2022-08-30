@@ -1,0 +1,51 @@
+IMPORTANT NOTES:
+- The "Echo" panel displays all actions taken and results. 
+- At any point, you can click "Export echo" to export the contents of the Echo window in a text file.
+- The "Compute Stats" button will compute basic statistics about the dataset currently displayed, and display them in the Echo view.
+- The "Reset" button will reset the entire tool to start fresh.
+- The "Exit" button will close it.
+
+STATS:
+- Ontop of basic statistics (mean, median, standard deviation, minimum, maximum, range), the tool displays percentiles, that is, the value under which a certain percentage of values fall.
+- For example, 68.72th percentile is the value under which, 68.72
+
+DISPLAY:
+- Opening any new file automatically displays it.
+- Display any dataset using the corresponding "Display" button. By default, the view is zoomed-out again (see below to override this behaviour).
+- You can zoom in and out or drag around the data using the appropriate icons in the toolbar. 
+- The "Lock" icon in the toolbar allows maintaining the boundaries of the current view when switching the display between datasets.
+- You can adjust the color scale of any dataset being displayed using the fields in the "Color Scale" panel. The button "Reset" will reset that color scale to the full range, but for the
+displayed dataset only.
+
+POLYGON:
+- By default, any processing is applied to the entire datasets loaded, but you can limit everything to a polygon.
+- When a polygon is in, the "Compute Stats" button will apply calculations only to the data within the polygon.
+- The "Draw" button allows manually drawing a polygon over the data displayed. Use the mouse's left button to add a vertex and double-click to finish.
+- The "Load" button allows inputting a file containing a polygon's vertices. Delimited text files and shapefiles are currently accepted. Make sure the coordinate systems are the same.
+- Any polygon can be interacted with, that is, you can drag around indiviudal vertices, or dragging the entire polygon.
+- The "Clear" button will clear the current polygon.
+- The "Clip to" button will clip all loaded datasets to the polygon. Useful to limit the size of the datasets to the relevant overlap area, and help speed up further calculations.
+
+DOD:
+- Load two bathymetry/topography files using the "Open DEM 1" and "Open DEM 2" buttons. Data file formats accepted are grid ASCII and TIFF.
+- Once you have two DEMs loaded in, they must be co-registered using the "Coregister DEMs" button.
+- Only then can you calculate the the difference (DOD = DEM2 - DEM1) using the "Calculate DOD" button.
+- The DOD can be displayed using the corresponding "Display" button.
+
+FIXED UNCERTAINTY LOD:
+- With a DOD, you can calculate a fixed-uncertainty LOD.
+- Choose the "Fixed uncertainty" radio button, specify your fixed uncertainty, the multiplying factor, and click "Calculate LOD". 
+- A fixed-uncertainty LOD is a single scalar, so cannot be displayed.
+
+VARIABLE UNCERTAINTY LOD:
+- For a variable-uncertainy LOD, you also need to load and process spatially-variable uncertainty files.
+- Load spatially-variable uncertainty files using the "Open UNC 1" and "Open UNC 2" buttons. 
+- Coregister those datasets using the "Coregister UNCs" button, then calculate the DPU using the "Calculate DPU" button.
+- The DPU can be displayed using the corresponding "Display" button.
+- Coregister DOD and DPU using the "Coregister DOD and DPU" button.
+- With coregistered DOD and DPU, you can calculate a variable uncertainty LOD.
+- Choose the "Variable uncertainty" radio button, specify your multiplying factor, and click "Calculate LOD". 
+- The spatially-variable LOD can be displayed using the corresponding "Display" button.
+
+ANALYZE CHANGE:
+- With a LOD in, you can analyse the changes using the "Analyze Change" button.
