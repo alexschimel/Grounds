@@ -1,14 +1,14 @@
 # *Grounds*
 
-Elevation Change Analysis.
+Elevation change analysis.
 
 [![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/download.png?raw=true)](https://github.com/alexschimel/Grounds/releases/download/v2.0.0/grounds_v200_setup.exe)
 
 ## Description
 
-*Grounds* is a free and open-source app to visualize and analyze change between Digital Elevation Models (DEM), that is, bathymetric/topographic grids. *Grounds* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
+*Grounds* is a free and open-source app to visualize and analyze change between Digital Elevation Models (DEM), that is, bathymetric/topographic grids. With this tool, you can visualize the regions of your datasets that experienced vertical change (erosion, deposition, etc.), and calculate the surface and volumes of those changes, considering fixed or variable Limits of Detection (LoDs). *Grounds* also provides uncertainty estimates for these measures. This app implements the methods described in [Schimel et al. (2015)](https://doi.org/10.1016/j.csr.2015.10.019).
 
-With *Grounds*, you can visualize the regions of your datasets that experienced vertical change (erosion, deposition, etc.), and calculate the surface and volumes of those changes, considering fixed or variable Limits of Detection (LoDs). *Grounds* also provides uncertainty estimates for these measures. This app implements the methods described in [Schimel et al. (2015)](https://doi.org/10.1016/j.csr.2015.10.019).
+*Grounds* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
 
 ![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/screenshots/Grounds_example.png?raw=true)
 
@@ -71,9 +71,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## See Also
 
 All apps based on CoFFee:
-* *Grounds*: https://github.com/alexschimel/Grounds
-* *Espresso* (private)
-* *Iskaffe*: https://github.com/alexschimel/Iskaffe
+* [*Grounds*](https://github.com/alexschimel/Grounds): Elevation Change Analysis
+* *Espresso*: Water-column data viewing and processing (private)
+* [*Iskaffe*](https://github.com/alexschimel/Iskaffe): Multibeam backscatter quality control
+* [*Kopp*](https://github.com/alexschimel/Kopp): Tracking Multibeam raw data parameter changes
 
 ## References 
 
@@ -83,37 +84,4 @@ Articles using *Grounds*:
 
 ## For developers
 
-*Grounds* is not the only application built on *CoFFee* (see list above). The philosophy behind their development is that all back-end (processing) goes in *CoFFee* while all front-end (display, user interface, application) goes in those apps. As a result, it is possible that *CoFFee* gets ahead of *Grounds* in terms of development, so careful version controlling is necessary.
-
-We use [Semantic Versioning](https://semver.org/) to attribute version numbers:
-* The version of CoFFee is hard-coded in function `CFF_coffee_version.m`.
-* The version of *Grounds* is a static property of the app (`Version`), alongside the CoFFee version it was built on (`CoffeeVersion`).
-
-A careful sequence to develop *Grounds* is the following:
-
-1. Checkout the latest commits on the main branches of both *CoFFee* and *Grounds*.
-2. Check if that latest version of *Grounds* uses the latest version of *CoFFee* (in the code, or warning at start-up). 
-3. If *Grounds* is running on an older version of *CoFFee*:
-    * Start with updating *Grounds* to use that latest version of *CoFFee*.
-    * Before committing those changes, increase *Grounds*'s version number and update which *CoFFee* version it runs on. 
-    * After committing, remember to add the new tag on git.
-4. Develop *Grounds* as you wish. Remember that all processing goes ideally in *CoFFee* and all display and user interface on *Grounds*.
-5. When done, if *CoFFee* was modified:
-    * Increase its version number.
-    * Push it up on git first. Add a tag.
-6. Increase version number for *Grounds* (and update which *CoFFee* version it was built on).
-7. If you wish to compile this new version of *Grounds*:
-    * In MATLAB, run `restoredefaultpath` to ensure you get a clean path. 
-    * Run *Grounds* and check a last time it all works fine.
-    * Double-click on the file `Grounds.prj` to run the application compiler with existing settings:
-      * Remove the main file `Grounds.mlapp` and add it again for the application compiler to find all dependencies.
-      * Update the version number in the setup filename, the application information, and the default installation folder.
-      * Save.
-      * Click on `Package`.
-    * Install the new executable with the setup file.
-    * Test that the setup works correctly.
-    * Test that the installed software runs correctly.
-8. Push *Grounds* up on git. Add a version tag.
-9. If you compiled that new version:
-    * Create a new release on github from the tag. 
-    * Add the binary setup, and a zipped version of the `for_redistribution_files_only` folder.
+[See the 'For developers' section on the *CoFFee* page](https://github.com/alexschimel/CoFFee)

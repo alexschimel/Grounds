@@ -2,6 +2,7 @@ IMPORTANT NOTES:
 - The "Echo" panel displays all actions taken and results. 
 - At any point, you can click "Export echo" to export the contents of the Echo window in a text file.
 - The "Compute Stats" button will compute basic statistics about the dataset currently displayed, and display them in the Echo view.
+- The "Export Grids" allows exporting all grids loaded as tif files. You will be prompted to choose an export folder.
 - The "Reset" button will reset the entire tool to start fresh.
 - The "Exit" button will close it.
 
