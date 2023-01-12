@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="3769595404" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Grounds\Grounds.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Grounds" name="Grounds" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Grounds\bin\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="472139234" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Grounds\Grounds.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Grounds" name="Grounds" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Grounds\bin\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>Grounds</param.appname>
     <param.icon>${PROJECT_ROOT}\Grounds_resources\icon.ico</param.icon>
     <param.icons>
@@ -28,16 +28,14 @@
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
-    <param.support.packages>
-      <item>&lt;package displayname="Hyperspectral Imaging Library Support Package" enabled="false" name="Hyperspectral Imaging Library Support Package" product="Image Processing Toolbox"/&gt;</item>
-    </param.support.packages>
+    <param.support.packages />
     <param.web.mcr>true</param.web.mcr>
     <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
     <param.web.mcr.name>grounds_v210_setup</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
-    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
     <param.create.log>false</param.create.log>
     <param.log.file />
     <param.native.matlab>false</param.native.matlab>
@@ -60,11 +58,13 @@
       <param.enable.clean.build />
       <param.user.defined.mcr.options />
       <param.target.type />
+      <param.support.packages />
       <param.web.mcr />
       <param.package.mcr />
       <param.no.mcr />
       <param.package.mcr.name />
       <param.no.mcr.name />
+      <param.windows.command.prompt />
       <param.create.log />
       <param.log.file />
       <param.native.matlab />
