@@ -1,8 +1,10 @@
+![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/grounds_banner.png?raw=true)
+
 # *Grounds*
 
 Elevation change analysis.
 
-[![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/download.png?raw=true)](https://github.com/alexschimel/Grounds/releases/download/v2.0.0/grounds_v200_setup.exe)
+[![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/download.png?raw=true)](https://github.com/alexschimel/Grounds/releases/download/v2.1.0/grounds_v210_setup.exe)
 
 ## Description
 
@@ -10,7 +12,7 @@ Elevation change analysis.
 
 *Grounds* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
 
-![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/screenshots/Grounds_example.png?raw=true)
+![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/screenshot_Grounds_v210.png?raw=true)
 
 ## Getting Started
 
