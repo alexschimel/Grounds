@@ -68,7 +68,7 @@ For more information, contact the authors.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` file for details.
 
 ## See Also
 
