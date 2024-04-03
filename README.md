@@ -10,7 +10,7 @@ Elevation change analysis.
 
 *Grounds* is a free and open-source app to visualize and analyze change between Digital Elevation Models (DEM), that is, bathymetric/topographic grids. With this tool, you can visualize the regions of your datasets that experienced vertical change (erosion, deposition, etc.), and calculate the surface and volumes of those changes, considering fixed or variable Limits of Detection (LoDs). *Grounds* also provides uncertainty estimates for these measures. This app implements the methods described in [Schimel et al. (2015)](https://doi.org/10.1016/j.csr.2015.10.019).
 
-*Grounds* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
+*Grounds* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the [Dependencies](#dependencies) and [Installing](#installing) sections).
 
 ![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/screenshot.png?raw=true)
 
@@ -51,36 +51,42 @@ There is a short documentation available by clicking on the `?` (question mark) 
 
 There is an example dataset (2x DEMs, 2x spatially-variable uncertainty grids, 1x example polygon) [available for download from the releases page](https://github.com/alexschimel/Grounds/releases).
 
+For more help, contact the [authors](#authors).
+
+## Past versions and updates
+
+See the [releases](https://github.com/alexschimel/Grounds/releases) page for past released versions. 
+
 If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your GitHub settings that you are set to receive 'Watching' notifications.
 
-For more information, contact the authors.
+## About
 
-## Authors
+### Authors
 
 * Alexandre Schimel ([The Geological Survey of Norway](https://www.ngu.no), alexandre.schimel@ngu.no)
 * Rozaimi Che Hasan (Universiti Teknologi Malaysia)
 * Daniel Ierodiaconou (Deakin University)
 * Joshu Mountjoy (NIWA)
 
-## Version History
+### Copyright
 
-[See the releases page](https://github.com/alexschimel/Grounds/releases)
+2012-2015
+* Alexandre Schimel (The Geological Survey of Norway)
 
-## License
+### License
 
-Distributed under the MIT License. See `LICENSE` file for details.
+The _Grounds_ software and source code are distributed under the MIT License. See `LICENSE` file for details.
 
 ## See Also
 
-All apps based on CoFFee:
+### Apps based on CoFFee
 * [*Grounds*](https://github.com/alexschimel/Grounds): Elevation Change Analysis
-* *Espresso*: Water-column data viewing and processing (private)
+* [*Espresso*](https://github.com/alexschimel/Espresso): Multibeam water-column visualization and processing
 * [*Iskaffe*](https://github.com/alexschimel/Iskaffe): Multibeam backscatter quality control
-* [*Kopp*](https://github.com/alexschimel/Kopp): Tracking Multibeam raw data parameter changes
 
-## References 
+### References 
 
-Articles using *Grounds*:
+Articles using _Grounds_:
 * Mountjoy, J. J., Howarth, J. D., Orpin, A. R., Barnes, P. M., Bowden, D. A., Rowden, A. A., Schimel, A. C. G., Holden, C., Horgan, H. J., Nodder, S. D., Patton, J. R., Lamarche, G., Gerstenberger, M., Micallef, A., Pallentin, A., & Kane, T. (2018). Earthquakes drive large-scale submarine canyon development and sediment supply to deep-ocean basins. Science Advances, 4(3). https://doi.org/10.1126/sciadv.aar3748
 * Schimel, A. C. G., Ierodiaconou, D., Hulands, L., & Kennedy, D. M. (2015). Accounting for uncertainty in volumes of seabed change measured with repeat multibeam sonar surveys. Continental Shelf Research, 111, 52–68. https://doi.org/10.1016/j.csr.2015.10.019
 
