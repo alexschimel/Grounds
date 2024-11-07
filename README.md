@@ -51,6 +51,8 @@ There is a short documentation available by clicking on the `?` (question mark) 
 
 There is an example dataset (2x DEMs, 2x spatially-variable uncertainty grids, 1x example polygon) [available for download from the releases page](https://github.com/alexschimel/Grounds/releases).
 
+If you have any issues, first check the project's [Issues](https://github.com/alexschimel/Grounds/issues) to search for a fix. Otherwise, let the authors know by [creating a new issue](https://github.com/alexschimel/Grounds/issues/new). Ideally, share the Espresso log to provide insight in the issue. 
+
 For more help, contact the [authors](#authors).
 
 ## Past versions and updates
