@@ -65,15 +65,15 @@ If you want to receive notifications of future releases (recommended), you may c
 
 ### Authors
 
-* Alexandre Schimel ([The Geological Survey of Norway](https://www.ngu.no), alexandre.schimel@ngu.no)
+* Alexandre Schimel (alex.schimel@proton.me)
 * Rozaimi Che Hasan (Universiti Teknologi Malaysia)
 * Daniel Ierodiaconou (Deakin University)
 * Joshu Mountjoy (NIWA)
 
 ### Copyright
 
-2012-2015
-* Alexandre Schimel (The Geological Survey of Norway)
+2012-2025
+* Alexandre Schimel
 
 ### License
 
