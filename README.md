@@ -6,7 +6,7 @@ Elevation change analysis.
 
 [![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/download.png?raw=true)](https://github.com/alexschimel/Grounds/releases/download/v2.1.0/grounds_v210_setup.exe)
 
-## Description
+### Description
 
 *Grounds* is a free and open-source app to visualize and analyze change between Digital Elevation Models (DEM), that is, bathymetric/topographic grids. With this tool, you can visualize the regions of your datasets that experienced vertical change (erosion, deposition, etc.), and calculate the surface and volumes of those changes, considering fixed or variable Limits of Detection (LoDs). *Grounds* also provides uncertainty estimates for these measures. This app implements the methods described in [Schimel et al. (2015)](https://doi.org/10.1016/j.csr.2015.10.019).
 
@@ -53,9 +53,9 @@ There is an example dataset (2x DEMs, 2x spatially-variable uncertainty grids, 1
 
 If you have any issues, first check the project's [Issues](https://github.com/alexschimel/Grounds/issues) to search for a fix. Otherwise, let the authors know by [creating a new issue](https://github.com/alexschimel/Grounds/issues/new). Ideally, share the Grounds log to provide insight in the issue. 
 
-For more help, contact the [authors](#authors).
+For more help, contact the [authors](#authors-and-contributors).
 
-## Past versions and updates
+### Past versions and updates
 
 See the [releases](https://github.com/alexschimel/Grounds/releases) page for past released versions. 
 
@@ -63,7 +63,7 @@ If you want to receive notifications of future releases (recommended), you may c
 
 ## About
 
-### Authors
+### Authors and contributors
 
 * Alexandre Schimel (alex.schimel@proton.me)
 * Rozaimi Che Hasan (Universiti Teknologi Malaysia)
@@ -77,7 +77,16 @@ If you want to receive notifications of future releases (recommended), you may c
 
 ### License
 
-The _Grounds_ software and source code are distributed under the MIT License. See `LICENSE` file for details.
+The *Grounds* software and source code are distributed under the MIT License. See `LICENSE` file for details.
+
+### Support This Project 💖
+
+If you use *Grounds* in your research, teaching, or professional work, please consider supporting its development. Your support helps cover development time, MATLAB license costs, and ensures continued availability of free, open-source tools for multibeam sonar data analysis.
+
+For **monthly support**, consider [sponsoring on GitHub](https://github.com/sponsors/alexschimel). For **one-time donations**, you can use [PayPal](https://paypal.me/alexschimel).
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg)](https://github.com/sponsors/alexschimel)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/alexschimel)
 
 ## See Also
 
@@ -88,7 +97,7 @@ The _Grounds_ software and source code are distributed under the MIT License. Se
 
 ### References 
 
-Articles using _Grounds_:
+Articles using *Grounds*:
 * Mountjoy, J. J., Howarth, J. D., Orpin, A. R., Barnes, P. M., Bowden, D. A., Rowden, A. A., Schimel, A. C. G., Holden, C., Horgan, H. J., Nodder, S. D., Patton, J. R., Lamarche, G., Gerstenberger, M., Micallef, A., Pallentin, A., & Kane, T. (2018). Earthquakes drive large-scale submarine canyon development and sediment supply to deep-ocean basins. Science Advances, 4(3). https://doi.org/10.1126/sciadv.aar3748
 * Schimel, A. C. G., Ierodiaconou, D., Hulands, L., & Kennedy, D. M. (2015). Accounting for uncertainty in volumes of seabed change measured with repeat multibeam sonar surveys. Continental Shelf Research, 111, 52–68. https://doi.org/10.1016/j.csr.2015.10.019
 
