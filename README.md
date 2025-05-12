@@ -6,6 +6,14 @@ Elevation change analysis.
 
 [![](https://github.com/alexschimel/Grounds/blob/main/Grounds_resources/download.png?raw=true)](https://github.com/alexschimel/Grounds/releases/download/v2.1.0/grounds_v210_setup.exe)
 
+[![Language](https://img.shields.io/badge/MATLAB-R2020b-orange)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/alexschimel/grounds)](https://github.com/alexschimel/grounds/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/alexschimel/grounds)](https://github.com/alexschimel/grounds/commits/main)
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg)](https://github.com/sponsors/alexschimel)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/alexschimel)
+
 ### Description
 
 *Grounds* is a free and open-source app to visualize and analyze change between Digital Elevation Models (DEM), that is, bathymetric/topographic grids. With this tool, you can visualize the regions of your datasets that experienced vertical change (erosion, deposition, etc.), and calculate the surface and volumes of those changes, considering fixed or variable Limits of Detection (LoDs). *Grounds* also provides uncertainty estimates for these measures. This app implements the methods described in [Schimel et al. (2015)](https://doi.org/10.1016/j.csr.2015.10.019).
@@ -84,9 +92,6 @@ The *Grounds* software and source code are distributed under the MIT License. Se
 If you use *Grounds* in your research, teaching, or professional work, please consider supporting its development. Your support helps cover development time, MATLAB license costs, and ensures continued availability of free, open-source tools for multibeam sonar data analysis.
 
 For **monthly support**, consider [sponsoring on GitHub](https://github.com/sponsors/alexschimel). For **one-time donations**, you can use [PayPal](https://paypal.me/alexschimel).
-
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg)](https://github.com/sponsors/alexschimel)
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/alexschimel)
 
 ## See Also
 
